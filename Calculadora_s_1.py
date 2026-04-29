@@ -18,7 +18,23 @@ LUNCH_START, LUNCH_END = time(13, 30), time(14, 30)
 reco_reco = [
     "RWwgZXF1aWxpYnJpbyBlbiBsYSBjYXJnYSBkZSB0cmFiYWpvIGVzIGxhIGJhc2UgZGUgdW4gZXF1aXBvIHNvc3RlbmlibGUu",
     "UGxhbmlmaWNhciBiaWVuIGhveSBldml0YSBjcmlzaXMgbWHDsWFuYS4=",
-    "QXNpZ25hciBjb24gY3JpdGVyaW8gcG90ZW5jaWEgZWwgdGFsZW50byBkZWwgZXF1aXBvLg=="
+    "QXNpZ25hciBjb24gY3JpdGVyaW8gcG90ZW5jaWEgZWwgdGFsZW50byBkZWwgZXF1aXBvLg==",
+    "VW4gYnVlbiBwbGFuaWZpY2Fkb3IgdmUgZWwgdG9kbyBzaW4gcGVyZGVyIGxvcyBkZXRhbGxlcy4=",
+    "RWwgb3JkZW4gZW4gbG9zIHByb3llY3RvcyBjcmVhIGxpYmVydGFkIHBhcmEgaW5ub3Zhci4=",
+    "RGlzdHJpYnVpciBiaWVuIGVsIHRyYWJham8gZXMgY3VpZGFyIGEgbGFzIHBlcnNvbmFzLg==",
+    "Q2FkYSB0YXJlYSBhc2lnbmFkYSBjb3JyZWN0YW1lbnRlIGFjZXJjYSBhbCBlcXVpcG8gYWwgw6l4aXRvLg==",
+    "TGEgY2xhcmlkYWQgZW4gbGEgcGxhbmlmaWNhY2nDs24gcmVkdWNlIGxhIGluY2VydGlkdW1icmUu",
+    "VW4gZXF1aXBvIGVxdWlsaWJyYWRvIHJpbmRlIG3DoXMgeSBtZWpvci4=",
+    "QW50aWNpcGFyc2UgZXMgbGEgbWVqb3IgZm9ybWEgZGUgbGlkZXJhciBwcm95ZWN0b3Mu",
+    "R2VzdGlvbmFyIGJpZW4gbGEgY2FyZ2EgZXZpdGEgZWwgZGVzZ2FzdGUgZGVsIGVxdWlwby4=",
+    "TGEgZWZpY2llbmNpYSBuYWNlIGRlIHVuYSBidWVuYSBvcmdhbml6YWNpw7NuLg==",
+    "UGxhbmllZmljYXIgZXMgdHJhbnNmb3JtYXIgZWwgY2FvcyBlbiBlc3RyYXRlZ2lhLg==",
+    "QXNpZ25hciB0YXJlYXMgZXMgdGFtYmnDqW4gYXNpZ25hciBjb25maWFuemEu",
+    "VW4gYnVlbiBlcXVpbGlicmlvIHBlcm1pdGUgcXVlIHRvZG9zIGJyaWxsZW4u",
+    "Q29vcmRpbmFyIGJpZW4gZXMgbXVsdGlwbGljYXIgZWwgaW1wYWN0byBkZWwgZXF1aXBvLg==",
+    "RWwgYmFsYW5jZSBjb3JyZWN0byBjb252aWVydGUgZXNmdWVyem8gZW4gcmVzdWx0YWRvcy4=",
+    "TGEgb3JnYW5pemFjacOzbiBlcyBsYSBhcnF1aXRlY3R1cmEgZGVsIMOpeGl0by4=",
+    "VW4gcGxhbiBjbGFybyBndcOtYSBpbmNsdXNvIGVuIGxhIGluY2VydGlkdW1icmUu"
 ]
 
 def calculo_feriados(txt_base64):
