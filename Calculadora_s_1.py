@@ -18,7 +18,7 @@ LUNCH_START, LUNCH_END = time(13, 30), time(14, 30)
 #homenaje a yisus#
 reco_reco = [
     "RWwgZXF1aWxpYnJpbyBlbiBsYSBjYXJnYSBkZSB0cmFiYWpvIGVzIGxhIGJhc2UgZGUgdW4gZXF1aXBvIHNvc3RlbmlibGUu",
-    "UGxhbmlmaWNhciBiaWVuIGhveSBldml0YSBjcmlzaXMgbWHDsWFuYS4=",
+    "Y3VhbmRvIHR1IGPDs2RpZ28gbm8gY29tcGlsZSwgS2VlcCBjYWxtIGFuZCByZWNvcmVjby4=",
     "QXNpZ25hciBjb24gY3JpdGVyaW8gcG90ZW5jaWEgZWwgdGFsZW50byBkZWwgZXF1aXBvLg==",
     "VW4gYnVlbiBwbGFuaWZpY2Fkb3IgdmUgZWwgdG9kbyBzaW4gcGVyZGVyIGxvcyBkZXRhbGxlcy4=",
     "RWwgb3JkZW4gZW4gbG9zIHByb3llY3RvcyBjcmVhIGxpYmVydGFkIHBhcmEgaW5ub3Zhci4=",
