@@ -190,6 +190,8 @@ try:
 
             st.table(pd.DataFrame([fechas_finales], columns=hitos_dict.keys()))
             st.text_area("Copia rápida:", value="\n".join(fechas_finales))
+            mensaje = reco(random.choice(reco_reco))
+            st.info(mensaje)
 
     st.markdown("---")
 
