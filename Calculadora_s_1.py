@@ -29,7 +29,7 @@ reco_reco = [
     "QW50aWNpcGFyc2UgZXMgbGEgbWVqb3IgZm9ybWEgZGUgbGlkZXJhciBwcm95ZWN0b3Mu",
     "R2VzdGlvbmFyIGJpZW4gbGEgY2FyZ2EgZXZpdGEgZWwgZGVzZ2FzdGUgZGVsIGVxdWlwby4=",
     "TGEgZWZpY2llbmNpYSBuYWNlIGRlIHVuYSBidWVuYSBvcmdhbml6YWNpw7NuLg==",
-    "UGxhbmllZmljYXIgZXMgdHJhbnNmb3JtYXIgZWwgY2FvcyBlbiBlc3RyYXRlZ2lhLg==",
+    "UGxhbmlmaWNhciBlcyB0cmFuc2Zvcm1hciBlbCBjYW9zIGVuIGVzdHJhdGVnaWEu",
     "QXNpZ25hciB0YXJlYXMgZXMgdGFtYmnDqW4gYXNpZ25hciBjb25maWFuemEu",
     "VW4gYnVlbiBlcXVpbGlicmlvIHBlcm1pdGUgcXVlIHRvZG9zIGJyaWxsZW4u",
     "Q29vcmRpbmFyIGJpZW4gZXMgbXVsdGlwbGljYXIgZWwgaW1wYWN0byBkZWwgZXF1aXBvLg==",
@@ -193,9 +193,9 @@ try:
 
     st.markdown("---")
 
-    if st.button("v1.5 - IIS Latam SW Team", type="secondary"):
-        mensaje = reco(random.choice(reco_reco))
-        st.info(mensaje)
+    st.button("v1.5 - IIS Latam SW Team", type="secondary")
+    mensaje = reco(random.choice(reco_reco))
+    st.info(mensaje)
 
 except Exception as e:
     st.error(f"Error: {e}")
