@@ -196,8 +196,8 @@ try:
     st.markdown("---")
 
     st.button("v1.5 - IIS Latam SW Team", type="secondary")
-    mensaje = reco(random.choice(reco_reco))
-    st.info(mensaje)
+    #mensaje = reco(random.choice(reco_reco))
+    #st.info(mensaje)
 
 except Exception as e:
     st.error(f"Error: {e}")
